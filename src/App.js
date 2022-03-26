@@ -1,12 +1,13 @@
 import React from 'react';
 
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers';
-import { CTA, Brand, Navbar, Feature } from './components'
+import { CTA, Brand, Navbar, Feature } from './components';
+import './App.css';
 
 const App = () => {
   return (
     <div className='App'>
-      <div className="gradient_bg">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
